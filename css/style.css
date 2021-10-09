@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(../img/bg.png);
+    background-size: cover;
+    background-position: top;
+    font-family: sans-serif;
+    padding:1rem 4rem;
+    height: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+.header-main{
+    position: relative;
+    
+}
+.logo{
+    float: left;
+    position: absolute;
+    
+}
+.logo img{
+    height: 3rem;
+}
+.sign{
+   
+    float: right;
+}
+.sign li{
+    float: left;
+    margin-left: 1rem;
+    list-style-type: none;
+}
+.sign li a{
+    text-decoration: none;
+    
+}
+.sign-btn{
+    margin-left: 1.5rem;
+    color: #2984D1;
+    border: 1px solid #63829c;
+    border-radius: 1rem;
+    padding: .5rem 1rem;
+    font-weight: 600;
+    font-size: 1rem;
+    background-color: #fff;
+    transition: all .5s ease;
+}
+.sign-btn:hover{
+    background-color: #2984D1;
+    color: #fff;
+    
+}
+.sign-btn a:hover{
+    color: #fff;
+}
+.join-btn{
+    padding: .5rem;
+    
+}
+.join-btn:hover{
+    background-color: #ddd;
+    border-radius: .5rem;
+    transition: all .3s ease;
+}
+.join-btn a{
+
+    color: #756d6d;
+}
+.header{
+    margin-top: 6rem;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    color: #8F5849;
+    margin-left: 1rem;
+    position: absolute;
+   
+    
+
+}
+.title-text h1{
+    font-weight: 300;
+    
+}
+form{
+    margin-top: 16rem;
+    margin-left: 1rem;
+    box-sizing: border-box;
+    
+}
+.form{
+    position: relative;
+
+    margin: 1rem 0;
+    
+}
+.form input{
+    width: 30%;
+    padding: 0 .5rem;
+    height: 3rem;
+    font-size: 1rem;
+    border: 1px solid #adadad;
+    background: none;
+    outline-style: none;
+    
+
+}
+/* .form input:hover{
+    border: 2px solid #2691d9;
+} */
+.form input:active{
+    border: 2px solid #2691d9;
+}
+.form lebel{
+    position: absolute;
+    top: 50%;
+    left: .5rem;
+    color: #adadad;
+    transform: translateY(-50%);
+    font-size: 1rem;
+    pointer-events: none;
+    transition: .5s;
+
+}
+.form span::before{
+    content: "";
+    position: absolute;
+    top: 4rem;
+    left: 0;
+    
+    height: .2rem;
+    background: #2691d9;
+}
+.form input:focus ~ lebel,
+.form input:valid ~ lebel{
+   
+    color: #2691d9;
+    top: .6rem;
+    font-size: 12px;
+    
+    
+}
+
+.pass{
+    font-size: 1rem;
+    color: #adadad;
+}
+.login-btn{
+    font-size: 1.5rem;
+    width: 31.5%;
+    margin-top: 2rem;
+    padding: 1rem 3rem;
+    border-radius: 2rem;
+    background-color: #0A66C2;
+    color: #fff;
+    border: none;
+    transition: all .5s ease;
+    
+}
+.login-btn:hover{
+    background-color: #017efc;
+}
+.or p{
+    margin: 1rem auto;
+    text-align: center;
+    position: relative;
+    width: 34%;
+    float: left;
+    color: #ddd;
+
+}
+.or p::before{
+    content: "";
+    display: block;
+    width: 150px;
+    height: 2px;
+    background: #ddd;
+    position: absolute;
+    left: 2rem;
+    top: 50%;
+
+}
+.or p::after{
+    content: "";
+    display: block;
+    width: 150px;
+    height: 2px;
+    background: #ddd;
+    position: absolute;
+    right: 2rem;
+    top: 50%;
+
+}
+.g-btn{
+    margin-top: 3rem;
+    width: 34%;
+    text-align: center;
+
+
+}
+.g-btn .i-btn{
+    background-image: url(../img/gbtn.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    
+    padding: 1rem 3rem;
+    border: 1px solid #ddd;
+    border-radius: 2rem;
+    font-size: 1.5rem;
+    background-color: #fff;
+    width: 90%;
+    color: rgb(150, 144, 144);
+    font-weight: 100;
+}
+.eye{
+    position: absolute;
+    top: 15px;
+    left: 20rem;
+    color: #adadad;
+}
+#hide1{
+    display: none;
+}
+#hide2:after{
+    display: none;
+}
+
+
+

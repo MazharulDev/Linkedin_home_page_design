@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>linkedIn: Log In or Sign Up</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="./img/favicon.png">
+</head>
+<body>
+    
+        <div class="header-main">
+            <div class="logo">
+                <a href="#"><img src="./img/logo.png" alt="logo"></a>
+            </div>
+            <ul class="sign">
+                <li class="join-btn"><a href="#">Join now</a></li>
+                <li class="sign-btn"><a href="#">Sign in</a></li>
+            </ul>
+
+        </div>
+
+        <div class="header">
+            <div class="title-text">
+                <h1 class="">welcome to your <br> profession commiunuty
+
+                </h1>
+            </div>
+        </div>
+
+        <form action="post">
+            <div class="form">
+                <input type="text" required>
+                <span></span>
+                <lebel>Email or phone number</lebel>
+            </div>
+            <div class="form">
+                <input type="password" required id="myInput">
+                <span></span>
+                <lebel>Password</lebel>
+                <span class="eye" onclick="myFunction()">
+                    <i id="hide" class="show">Show</i>
+                  </span>
+            </div>
+            <a href="#"><div class="pass">Forgot Password?</div></a>
+            <a href="#"><input class="login-btn" type="Submit" value="Sign in"></a>
+        </form>
+        <div class="or">
+            <p>or</p>
+        </div> 
+        <div class="g-btn">
+            <a href="#"><input  class="i-btn" type="Submit" value="Sign in with Google"></a>
+        </div>
+
+
+        <script>
+            function myFunction() {
+              var x = document.getElementById("myInput");
+              var y = document.getElementById("hide");
+      
+              if (x.type === "password") {
+                x.type = "text";
+                y.textContent = "Hide";
+              } else {
+                x.type = "password";
+                y.textContent = "Show";
+              }
+            }
+          </script>
+
+    
+</body>
+</html>
